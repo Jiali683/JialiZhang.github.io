@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jiali Zhang"
-  pronouns         : # example: "They/them"  
+  pronouns         : "They/them"  
   bio              : "Postgraduate Associate, Department of Pathology "
   location         : "New haven, CT"
   employer         : "Yale University"
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Jiali Zhang
+  linkedin         : 
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
