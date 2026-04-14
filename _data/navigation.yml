@@ -12,22 +12,22 @@ main:
     url: "/#about-me"
     
  - title: "News🔥"
-    url: "/#-news" 
+    url: "/#news" 
     
   - title: "Educations & Training📚"
-    url: "/#-educations-training"
+    url: "/#educations-training"
 
   - title: "Publications📖"
-    url: "/#-publications"    
+    url: "/#publications"    
 
   - title: "Talks🗣️"
-    url: "/#-talks"    
+    url: "/#talks"    
     
   - title: "Awards & Honors🏆"
-    url: "/#-awards-honors"
+    url: "/#awards-honors"
 
   - title: "Internships💼"
-    url: "/#-internships"
+    url: "/#internships"
     
   # - title: "Blog Posts"
   #   url: /year-archive/
