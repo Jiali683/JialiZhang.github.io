@@ -15,7 +15,7 @@ main:
     url: "/#-news" 
     
   - title: "Educations & Training📚"
-    url: "/#educations-training"
+    url: "/#-educations-training"
 
   - title: "Publications📖"
     url: "/#-publications"    
@@ -24,7 +24,7 @@ main:
     url: "/#-talks"    
     
   - title: "Awards & Honors🏆"
-    url: "/#awards-honors"
+    url: "/#-awards-honors"
 
   - title: "Internships💼"
     url: "/#-internships"
