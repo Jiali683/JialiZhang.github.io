@@ -19,18 +19,11 @@ redirect_from:
 
 # Educations & Traning📚
 ======
-- *2024.10 - Present*: &nbsp;Postgraduate Researcher in Medicine School, Yale University<img src='images/pkulogo.png' style="height:1em; vertical-align:middle;">.
-- *2021.09 - 2024.06*: &nbsp;Master of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, China Agricultural University<img src='images/utlogo.png' style="height:1em; vertical-align:middle;">.
-- *2017.09 - 2021.06*: &nbsp;Bachelor of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, Jilin Agricultural University<img src='images/utlogo.png' style="height:1em; vertical-align:middle;">.
-  
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- *2024.10 - Present*: &nbsp;Postgraduate Researcher in Medicine School, Yale University.
+- *2021.09 - 2024.06*: &nbsp;Master of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, China Agricultural University.
+- *2017.09 - 2021.06*: &nbsp;Bachelor of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, Jilin Agricultural University.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+# Publications
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
