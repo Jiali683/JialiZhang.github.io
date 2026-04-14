@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-
+<span class='anchor' id='about-me'></span>
  My name is Jiali Zhang, and I am currently a postgraduate researcher in the Department of Pathology at Yale School of Medicine, under the supervision of [Dr. Won Jae Huh](https://medicine.yale.edu/profile/wonjae-huh/).
  
  Prior to this, I completed my master’s degree in Veterinary Medicine at China Agricultural University in 2024 and has obtained the Veterinary Qualification Certificate. 
@@ -16,6 +16,23 @@ redirect_from:
   My research interests include the mechanisms underlying gastrointestinal diseases and their therapeutic strategies, stem cell therapy, drug delivery system development, and organoids.
 
   Feel free to reach out if you'd like to discuss research or explore potential collaboration!
+
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-pen-fancy"></i> Life Experiencer</h3> 
+    <ul>
+      <li>
+        Enjoy spending my <span class="primary-gradient-text">Spare Time</span> on: 
+        Dancing💃,
+        Resistance Training🏋️,
+        Snorkling🤿,
+        Climbing🧗‍♀️,
+        Yoga🧘‍♀️,
+        Movies🎬,
+        Games🎮,
+        Musics🎵,
+        and Travel the world🌏
+      </li>
+  </div>
 
 <span class='anchor' id='-news'></span>
 # News🔥
