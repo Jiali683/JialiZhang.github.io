@@ -17,13 +17,26 @@ redirect_from:
 
   Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
+# News🔥
+======
+-*2026.02*: &nbsp;Our work has been accepted by DDW,2026 🎉.
+-*2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology 🎉.
+-*2025.08*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
+-*2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
+-*2024.06*: &nbsp;Graduated from China Agricultural University as a merit student.
+-*2023.10*: &nbsp;Our work has been accepted by The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine 🎉.
+-*2023.08*: &nbsp;Our work has been accepted by BMC Cell Communication and Signaling 🎉.
+-*2021.09*: &nbsp;Starting my Master at China Agricultural University.
+-*2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program..
+-*2017.09*: &nbsp;Starting my Bachelor at Jilin Agricultural University.
+
 # Educations & Traning📚
 ======
 - *2024.10 - Present*: &nbsp;Postgraduate Researcher in Medicine School, Yale University.
 - *2021.09 - 2024.06*: &nbsp;Master of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, China Agricultural University.
 - *2017.09 - 2021.06*: &nbsp;Bachelor of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, Jilin Agricultural University.
 
-# Publications
+# Publications📖
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
