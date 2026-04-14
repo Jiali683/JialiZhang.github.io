@@ -17,7 +17,7 @@ redirect_from:
 
   Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
-  <div class="highlight-block floating-card">
+<div class="highlight-block floating-card">
     <h3><i class="fas fa-pen-fancy"></i> Life Experiencer</h3> 
     <ul>
       <li>
@@ -33,7 +33,8 @@ redirect_from:
         and Travel the world🌏
       </li>
   </div>
-
+</div>
+      
 <span class='anchor' id='-news'></span>
 # News🔥
 - *2026.02*: &nbsp;Our work has been accepted by DDW, 2026🎉.
