@@ -9,10 +9,10 @@
 
 main:
   - title: "About Me"
-   url: "/#about-me"
+    url: "/#about-me"
     
   - title: "News🔥"
-   url: "/#-news" 
+    url: "/#-news" 
     
   - title: "Educations & Training📚"
     url: "/#educations-training"
