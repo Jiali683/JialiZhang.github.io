@@ -18,7 +18,7 @@ redirect_from:
   Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
 # News🔥
------------------------------------------------------------------------------------------------
+
 - *2026.02*: &nbsp;Our work has been accepted by DDW, 2026.
 - *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology.
 - *2025.08*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
@@ -31,13 +31,13 @@ redirect_from:
 - *2017.09*: &nbsp;Starting my Bachelor at Jilin Agricultural University.
 
 # Educations & Traning📚
------------------------------------------------------------------------------------------------
+
 - *2024.10 - Present*: &nbsp;Postgraduate Researcher in Medicine School, Yale University.
 - *2021.09 - 2024.06*: &nbsp;Master of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, China Agricultural University.
 - *2017.09 - 2021.06*: &nbsp;Bachelor of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, Jilin Agricultural University.
 
 # Publications📖
------------------------------------------------------------------------------------------------
+
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
 1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
