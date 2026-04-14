@@ -9,7 +9,7 @@ redirect_from:
 
 
 
- My name is Jiali Zhang, and I am currently a postgraduate researcher in the Department of Pathology at Yale School of Medicine, under the supervision of Dr.Won Jae Huh.
+ My name is Jiali Zhang, and I am currently a postgraduate researcher in the Department of Pathology at Yale School of Medicine, under the supervision of [Dr. Won Jae Huh](https://medicine.yale.edu/profile/wonjae-huh/).
  
  Prior to this, I completed my master’s degree in Veterinary Medicine at China Agricultural University in 2024 and has obtained the Veterinary Qualification Certificate. 
  
