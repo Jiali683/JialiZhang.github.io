@@ -24,7 +24,6 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-  #  url: /cv/
      url: /files/CV4.13.pdf
     
   # - title: "CV"
