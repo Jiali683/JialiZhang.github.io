@@ -19,7 +19,7 @@ redirect_from:
 
 # News🔥
 ======
-- *2026.02*: &nbsp;Our work has been accepted by DDW,2026.
+- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026.
 - *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology.
 - *2025.08*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
 - *2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
