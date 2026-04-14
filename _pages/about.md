@@ -70,7 +70,6 @@ Postgraduate Symposium, 2025🎉.
 - *2023*: &nbsp;First-class Academic Scholarship.
 - *2021*: &nbsp;Second-Class major Scholarship.
 - *2020 & 2018*: &nbsp;Jilin Province Scholarship.
-- *2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program.
 - *2020 & 2019 & 2018 & 2017*: &nbsp;First-class Major Scholarship.
 - *2019*: &nbsp;Excellence Award at the 6th Shengtai’er Cup Veterinary Medicine Professional Skills Competition.
 - *2018*: &nbsp;DNB Encouragement Scholarship.
