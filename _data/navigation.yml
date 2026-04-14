@@ -29,9 +29,6 @@ main:
   - title: "Internships💼"
     url: "/#-internships"
     
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
   - title: "CV"
     # url: /cv/
     url: /files/CV4.13.pdf
@@ -41,3 +38,6 @@ main:
     
   - title: "Guide"
     url: /markdown/
+    
+  # - title: "Blog Posts"
+  #   url: /year-archive/
