@@ -9,7 +9,11 @@ redirect_from:
 
 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+ My name is Jiali Zhang, and I am currently a postgraduate researcher in the Department of Pathology at Yale School of Medicine, under the supervision of Dr.Won Jae Huh.
+ 
+ Prior to this, I completed my master’s degree in Veterinary Medicine at China Agricultural University in 2024 and has obtained the Veterinary Qualification Certificate. 
+ 
+  My research interests include the mechanisms underlying gastrointestinal diseases and their therapeutic strategies, stem cell therapy, drug delivery system development, and organoids.
 
 A data-driven personal website
 ======
