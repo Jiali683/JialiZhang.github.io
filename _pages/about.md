@@ -19,13 +19,14 @@ redirect_from:
 
 <span class='anchor' id='-news'></span>
 # News🔥
-- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026.
-- *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology.
-- *2025.08*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
+- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026🎉.
+- *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology🎉.
+- *2025.08*: &nbsp;Our work has been presented at 5th Annual Yale
+Postgraduate Symposium, 2025🎉.
 - *2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
 - *2024.06*: &nbsp;Graduated from China Agricultural University as a merit student.
-- *2023.10*: &nbsp;Our work has been accepted by The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine.
-- *2023.08*: &nbsp;Our work has been accepted by BMC Cell Communication and Signaling.
+- *2023.10*: &nbsp;Our work has been accepted by The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine🎉.
+- *2023.08*: &nbsp;Our work has been accepted by BMC Cell Communication and Signaling🎉.
 - *2021.09*: &nbsp;Starting my Master at China Agricultural University.
 - *2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program..
 - *2017.09*: &nbsp;Starting my Bachelor at Jilin Agricultural University.
@@ -38,12 +39,13 @@ redirect_from:
 
 <span class='anchor' id='-publications'></span>
 # Publications📖
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026🎉.
+- *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology🎉.
+- *2025.08*: &nbsp;Our work has been presented at 5th Annual Yale
+Postgraduate Symposium, 2025🎉.
+- *2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
+- *2024.06*: &nbsp;Graduated from China Agricultural University as a merit student.
+- *2023.10*: &nbsp;Our work has
 
 <span class='anchor' id='-talks'></span>
 # Talks🗣️
@@ -60,17 +62,21 @@ redirect_from:
   
 <span class='anchor' id='awards-honors'></span>
 # Awards & Honors🏆
-- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026.
-- *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology.
-- *2025.08*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
-- *2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
-- *2024.06*: &nbsp;Graduated from China Agricultural University as a merit student.
-- *2023.10*: &nbsp;Our work has been accepted by The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine.
-- *2023.08*: &nbsp;Our work has been accepted by BMC Cell Communication and Signaling.
-- *2021.09*: &nbsp;Starting my Master at China Agricultural University.
-- *2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program..
-- *2017.09*: &nbsp;Starting my Bachelor at Jilin Agricultural University.
-
+- *2024*: &nbsp;Beijing Outstanding Graduates.
+- *2024*: &nbsp;Outstanding Graduate of the University.
+- *2024 & 2021*: &nbsp;Second-class Academic Scholarship.
+- *2023*: &nbsp;National Scholarship.
+- *2023*: &nbsp;Xiong Dashi Dean’s Scholarship.
+- *2023*: &nbsp;First-class Academic Scholarship.
+- *2021*: &nbsp;Second-Class major Scholarship.
+- *2020 & 2018*: &nbsp;Jilin Province Scholarship.
+- *2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program.
+- *2020 & 2019 & 2018 & 2017*: &nbsp;First-class Major Scholarship.
+- *2019*: &nbsp;Excellence Award at the 6th Shengtai’er Cup Veterinary Medicine Professional Skills Competition.
+- *2018*: &nbsp;DNB Encouragement Scholarship.
+- *2018*: &nbsp;College Merit Student.
+- *2018*: &nbsp;University Model Student in Learning.
+  
 <span class='anchor' id='-internships'></span>
 # Internships💼
 - *2026.02*: &nbsp;Our work has been accepted by DDW, 2026.
