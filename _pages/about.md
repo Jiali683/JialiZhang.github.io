@@ -846,8 +846,173 @@ redirect_from:
   
 <span class='anchor' id='-internships'></span>
 # Internships💼
-- *2023.03*: &nbsp;Beijing Elk Ecological Experimental Animal Center, Beijing, China .
-- *2020.04*: &nbsp;Ruipai Pet Hospital, Chang Sha, Hu Nan, China .
+<style>
+.internship-section {
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.internship-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 26px;
+  color: #2b2b2b;
+}
+
+.internship-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.internship-card {
+  position: relative;
+  overflow: hidden;
+  padding: 22px 24px 22px 26px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #f6fbff 100%);
+  border: 1px solid rgba(0, 53, 107, 0.14);
+  box-shadow: 0 8px 24px rgba(0, 53, 107, 0.08);
+  transition: all 0.32s ease;
+  animation: internshipSlideIn 0.65s ease both;
+}
+
+.internship-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 18px;
+  bottom: 18px;
+  width: 5px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #00356b, #1f6feb, #6f42c1);
+}
+
+.internship-card::after {
+  content: "💼";
+  position: absolute;
+  right: 22px;
+  bottom: 16px;
+  font-size: 38px;
+  opacity: 0.10;
+  transition: all 0.35s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-7px) translateX(6px);
+  box-shadow: 0 16px 36px rgba(0, 53, 107, 0.18);
+  border-color: rgba(0, 53, 107, 0.32);
+}
+
+.internship-card:hover::after {
+  opacity: 0.22;
+  transform: rotate(-8deg) scale(1.12);
+}
+
+.internship-date {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #00356b;
+  border-radius: 999px;
+}
+
+.internship-place {
+  font-size: 19px;
+  font-weight: 800;
+  color: #1f1f1f;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  padding-right: 45px;
+}
+
+.internship-location {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #00356b;
+  background: #eaf3ff;
+  border: 1px solid #c8ddff;
+  border-radius: 999px;
+}
+
+.internship-type {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5b2b82;
+  background: #f3eaff;
+  border: 1px solid #dcc6ff;
+  border-radius: 999px;
+}
+
+.internship-card:nth-child(1) {
+  animation-delay: 0.06s;
+}
+
+.internship-card:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+@keyframes internshipSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .internship-card {
+    padding: 20px 18px 20px 22px;
+  }
+
+  .internship-place {
+    font-size: 17px;
+    padding-right: 35px;
+  }
+
+  .internship-type {
+    margin-left: 0;
+    margin-top: 7px;
+  }
+}
+</style>
+
+<div class="internship-section">
+
+  <div class="internship-list">
+
+    <div class="internship-card">
+      <div class="internship-date">2023.03</div>
+      <div class="internship-place">
+        Beijing Elk Ecological Experimental Animal Center
+      </div>
+      <span class="internship-location">Beijing, China</span>
+      <span class="internship-type">Experimental Animal Center</span>
+    </div>
+
+    <div class="internship-card">
+      <div class="internship-date">2020.04</div>
+      <div class="internship-place">
+        Ruipai Pet Hospital
+      </div>
+      <span class="internship-location">Changsha, Hunan, China</span>
+      <span class="internship-type">Veterinary Clinical Internship</span>
+    </div>
+
+  </div>
+
+</div>
 
 # CV
 please see the attachment
