@@ -337,7 +337,7 @@ Postgraduate Symposium, 2025🎉.
 
 <div class="talks-section">
 
-  <h1 class="talks-title">📝 Talks</h1>
+  <h1 class="talks-title">
 
   <!-- Talk 1 -->
   <div class="talk-item">
@@ -354,9 +354,14 @@ Postgraduate Symposium, 2025🎉.
 
       <div class="talk-authors">
         Jiali Zhang, Matthew E Bechard, Robert J Coffey, Won Jae Huh<sup>*</sup>
+       </li>
+        </ul>
       </div>
+    </div>
 
   </div>
+
+</div>
   
 <span class='anchor' id='awards-honors'></span>
 # Awards & Honors🏆
