@@ -229,7 +229,134 @@ Postgraduate Symposium, 2025🎉.
 
 <span class='anchor' id='-talks'></span>
 # Talks🗣️
+<style>
+.publications-section {
+  margin-top: 40px;
+}
 
+.publications-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+}
+
+.publication-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 40px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.publication-image-box {
+  position: relative;
+  flex: 0 0 42%;
+}
+
+.publication-image {
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.conference-label {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: #003f9e;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 5px 18px;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-title {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.publication-title a {
+  color: #0645ad;
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 17px;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.publication-description {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #444;
+}
+
+.publication-description ul {
+  margin-top: 8px;
+  padding-left: 24px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .publication-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .publication-image-box {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .conference-label {
+    left: 0;
+    font-size: 14px;
+  }
+
+  .publication-title {
+    font-size: 19px;
+  }
+
+  .publication-authors,
+  .publication-description {
+    font-size: 16px;
+  }
+}
+</style>
+
+<div class="publications-section">
+
+  <h1 class="publications-title">📝 Publications</h1>
+
+  <!-- Publication 1 -->
+  <div class="publication-item">
+
+    <div class="publication-image-box">
+      <img class="publication-image" src="{{ site.baseurl }}/images/DDW2026.webp" alt="Publication figure">
+    </div>
+
+    <div class="publication-content">
+      <div class="publication-title">
+          M-BRe: Transcriptomic profiling reveals the role of Hedgehog signaling as a biomarker and in the pathogenesis of Ménétrier's disease
+        </a>
+      </div>
+
+      <div class="publication-authors">
+        Jiali Zhang, Matthew E Bechard, Robert J Coffey, Won Jae Huh<sup>*</sup>
+      </div>
+
+  </div>
   
 <span class='anchor' id='awards-honors'></span>
 # Awards & Honors🏆
