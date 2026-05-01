@@ -171,8 +171,7 @@ Postgraduate Symposium, 2025🎉.
   <div class="publication-item">
 
     <div class="publication-image-box">
-      #<div class="conference-label">EMNLP 2025 Main Conference</div>
-      <img class="publication-image" src="/images/Publication 1.png" alt="Publication figure">
+      <img class="publication-image" src="{{ site.baseurl }}/images/Publication 1.png" alt="Publication figure">
     </div>
 
     <div class="publication-content">
@@ -201,7 +200,6 @@ Postgraduate Symposium, 2025🎉.
   <div class="publication-item">
 
     <div class="publication-image-box">
-     # <div class="conference-label">ACL 2025 Main Conference</div>
       <img class="publication-image" src="{{ site.baseurl }}/images/Publication 2.png" alt="Publication figure">
     </div>
 
