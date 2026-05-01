@@ -91,7 +91,7 @@ redirect_from:
   display: inline-block;
   min-width: 90px;
   font-weight: 700;
-  color: #1f6feb;
+  color: #00356b;
   margin-right: 8px;
 }
 
@@ -161,8 +161,6 @@ redirect_from:
 </style>
 
 <div class="news-section">
-
-  <h1 class="news-title">News🔥</h1>
 
   <div class="news-timeline">
 
