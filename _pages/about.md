@@ -245,9 +245,186 @@ redirect_from:
 
 <span class='anchor' id='educations-training'></span>
 # Educations & Training📚
-- *2024.10 - Present*: &nbsp;Postgraduate Researcher in Medicine School, Yale University.
-- *2021.09 - 2024.06*: &nbsp;Master of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, China Agricultural University.
-- *2017.09 - 2021.06*: &nbsp;Bachelor of Science in College of Veterinary Medicine, <span class="primary-gradient-text">with Distinction</span>, Jilin Agricultural University.
+<style>
+.education-section {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.education-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  color: #2b2b2b;
+}
+
+.education-timeline {
+  position: relative;
+  padding-left: 32px;
+  border-left: 3px solid #d7e7ff;
+}
+
+.education-card {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #ffffff 0%, #f7fbff 100%);
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 53, 107, 0.08);
+  transition: all 0.3s ease;
+  animation: eduFadeUp 0.65s ease both;
+}
+
+.education-card:hover {
+  transform: translateY(-6px) translateX(6px);
+  box-shadow: 0 14px 30px rgba(0, 53, 107, 0.18);
+}
+
+.education-card::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 28px;
+  width: 16px;
+  height: 16px;
+  background: #00356b;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 0 5px #d7e7ff;
+}
+
+.education-date {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #00356b;
+  border-radius: 999px;
+}
+
+.education-role {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 6px;
+}
+
+.education-school {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.education-highlight {
+  font-weight: 800;
+  background: linear-gradient(90deg, #00356b, #1f6feb, #6f42c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.education-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #00356b;
+  background: #eaf3ff;
+  border: 1px solid #c8ddff;
+  border-radius: 999px;
+}
+
+.education-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.education-card:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.education-card:nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+@keyframes eduFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education-timeline {
+    padding-left: 24px;
+  }
+
+  .education-card {
+    padding: 18px 18px;
+  }
+
+  .education-card::before {
+    left: -34px;
+  }
+
+  .education-role {
+    font-size: 17px;
+  }
+
+  .education-school {
+    font-size: 15px;
+  }
+
+  .education-tag {
+    margin-left: 0;
+    margin-top: 6px;
+  }
+}
+</style>
+
+<div class="education-section">
+
+  <h1 class="education-title">Educations & Training📚</h1>
+
+  <div class="education-timeline">
+
+    <div class="education-card">
+      <div class="education-date">2024.10 - Present</div>
+      <div class="education-role">Postgraduate Researcher</div>
+      <div class="education-school">
+        School of Medicine, Yale University
+        <span class="education-tag">Current</span>
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="education-date">2021.09 - 2024.06</div>
+      <div class="education-role">Master of Science</div>
+      <div class="education-school">
+        College of Veterinary Medicine,
+        <span class="education-highlight">with Distinction</span>,
+        China Agricultural University
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="education-date">2017.09 - 2021.06</div>
+      <div class="education-role">Bachelor of Science</div>
+      <div class="education-school">
+        College of Veterinary Medicine,
+        <span class="education-highlight">with Distinction</span>,
+        Jilin Agricultural University
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 <span class='anchor' id='-publications'></span>
 # Publications📖
