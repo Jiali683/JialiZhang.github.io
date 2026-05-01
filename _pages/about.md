@@ -1125,8 +1125,6 @@ redirect_from:
 
 <div class="talks-section">
 
-  <h1 class="talks-title">Talks🗣️</h1>
-
   <div class="talks-list">
 
     <div class="talk-card featured">
