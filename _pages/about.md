@@ -230,11 +230,11 @@ Postgraduate Symposium, 2025🎉.
 <span class='anchor' id='-talks'></span>
 # Talks🗣️
 <style>
-.publications-section {
+.talks-section {
   margin-top: 40px;
 }
 
-.publications-title {
+.talks-title {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -242,7 +242,7 @@ Postgraduate Symposium, 2025🎉.
   padding-bottom: 15px;
 }
 
-.publication-item {
+.talks-item {
   display: flex;
   align-items: center;
   gap: 35px;
@@ -250,12 +250,12 @@ Postgraduate Symposium, 2025🎉.
   border-bottom: 1px solid #e5e5e5;
 }
 
-.publication-image-box {
+.talks-image-box {
   position: relative;
   flex: 0 0 42%;
 }
 
-.publication-image {
+.talks-image {
   width: 100%;
   border-radius: 2px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
@@ -272,49 +272,49 @@ Postgraduate Symposium, 2025🎉.
   padding: 5px 18px;
 }
 
-.publication-content {
+.talks-content {
   flex: 1;
 }
 
-.publication-title {
+.talks-title {
   font-size: 21px;
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: 12px;
 }
 
-.publication-title a {
+.talks-title a {
   color: #0645ad;
   text-decoration: underline;
 }
 
-.publication-authors {
+.talks-authors {
   font-size: 17px;
   font-weight: 700;
   color: #555;
   margin-bottom: 12px;
 }
 
-.publication-description {
+.talks-description {
   font-size: 17px;
   line-height: 1.55;
   color: #444;
 }
 
-.publication-description ul {
+.talks-description ul {
   margin-top: 8px;
   padding-left: 24px;
 }
 
 /* Mobile responsive */
 @media screen and (max-width: 768px) {
-  .publication-item {
+  .talks-item {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
   }
 
-  .publication-image-box {
+  .talks-image-box {
     flex: 0 0 100%;
     width: 100%;
   }
@@ -324,35 +324,35 @@ Postgraduate Symposium, 2025🎉.
     font-size: 14px;
   }
 
-  .publication-title {
+  .talks-title {
     font-size: 19px;
   }
 
-  .publication-authors,
-  .publication-description {
+  .talks-authors,
+  .talks-description {
     font-size: 16px;
   }
 }
 </style>
 
-<div class="publications-section">
+<div class="talks-section">
 
-  <h1 class="publications-title">📝 Publications</h1>
+  <h1 class="talks-title">📝 Talks</h1>
 
-  <!-- Publication 1 -->
-  <div class="publication-item">
+  <!-- Talk 1 -->
+  <div class="talk-item">
 
-    <div class="publication-image-box">
-      <img class="publication-image" src="{{ site.baseurl }}/images/DDW2026.webp" alt="Publication figure">
+    <div class="talk-image-box">
+      <img class="talk-image" src="{{ site.baseurl }}/images/DDW2026.webp" alt="Talk figure">
     </div>
 
-    <div class="publication-content">
-      <div class="publication-title">
-          M-BRe: Transcriptomic profiling reveals the role of Hedgehog signaling as a biomarker and in the pathogenesis of Ménétrier's disease
+    <div class="talk-content">
+      <div class="talk-title">
+          M-BRe: Lrig3 Represses Spasmolytic Polypeptide-Expressing Metaplasia (SPEM) Formation in Chief Cells by Inhibiting EGFR Signaling
         </a>
       </div>
 
-      <div class="publication-authors">
+      <div class="talk-authors">
         Jiali Zhang, Matthew E Bechard, Robert J Coffey, Won Jae Huh<sup>*</sup>
       </div>
 
