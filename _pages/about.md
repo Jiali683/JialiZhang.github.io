@@ -57,7 +57,177 @@ Postgraduate Symposium, 2025🎉.
 
 <span class='anchor' id='-publications'></span>
 # Publications📖
+<style>
+.publications-section {
+  margin-top: 40px;
+}
 
+.publications-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+}
+
+.publication-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 40px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.publication-image-box {
+  position: relative;
+  flex: 0 0 42%;
+}
+
+.publication-image {
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.conference-label {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  background-color: #003f9e;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 5px 18px;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-title {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.publication-title a {
+  color: #0645ad;
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 17px;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.publication-description {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #444;
+}
+
+.publication-description ul {
+  margin-top: 8px;
+  padding-left: 24px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .publication-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .publication-image-box {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .conference-label {
+    left: 0;
+    font-size: 14px;
+  }
+
+  .publication-title {
+    font-size: 19px;
+  }
+
+  .publication-authors,
+  .publication-description {
+    font-size: 16px;
+  }
+}
+</style>
+
+<div class="publications-section">
+
+  <h1 class="publications-title">📝 Publications</h1>
+
+  <!-- Publication 1 -->
+  <div class="publication-item">
+
+    <div class="publication-image-box">
+      <div class="conference-label">EMNLP 2025 Main Conference</div>
+      <img class="publication-image" src="/images/publication 1.png" alt="Publication figure">
+    </div>
+
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://pathsocjournals.onlinelibrary.wiley.com/doi/abs/10.1002/path.6488">
+          M-BRe: Transcriptomic profiling reveals the role of Hedgehog signaling as a biomarker and in the pathogenesis of Ménétrier's disease
+        </a>
+      </div>
+
+      <div class="publication-authors">
+        Miyoung Shin, Tryston T Gabriel, Fred Kwame Ofosu, Jiali Zhang, Tricia T Wang, Matthew E Bechard, Robert J Coffey, Won Jae Huh<sup>*</sup>
+      </div>
+
+      <div class="publication-description">
+        <ul>
+          <li>
+            This study provides valuable insights into the potential mechanisms underlying the similar clinico-pathologic features observed in MD and JPS. We also identified GLI1 and HHIP as diagnostic markers that can help distinguish MD from JPS. Furthermore, Hh signaling was shown to play an important role in the pathogenesis of MD and can function as a potential therapeutic target.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Publication 2 -->
+  <div class="publication-item">
+
+    <div class="publication-image-box">
+      <div class="conference-label">ACL 2025 Main Conference</div>
+      <img class="publication-image" src="/images/publication 2.png" alt="Publication figure">
+    </div>
+
+    <div class="publication-content">
+      <div class="publication-title">
+        <a href="https://link.springer.com/article/10.1186/s12964-023-01292-0">
+          Extracellular vesicle therapy for obesity-induced NAFLD: a comprehensive review of current evidence
+        </a>
+      </div>
+
+      <div class="publication-authors">
+        Jiali Zhang, Baochen Ma, Zixu Wang, Yaoxing Chen, Chengzhong Li, Yulan Dong<sup>*</sup>
+      </div>
+
+      <div class="publication-description">
+        <ul>
+          <li>
+            We highlight therapeutic approaches using exosomes in the clinical treatment of NAFLD, which provide valuable insights into targeting NAFLD in the clinical setting.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 <span class='anchor' id='-talks'></span>
 # Talks🗣️
