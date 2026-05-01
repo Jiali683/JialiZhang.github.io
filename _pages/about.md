@@ -935,7 +935,255 @@ redirect_from:
 
 <span class='anchor' id='-talks'></span>
 # Talks🗣️
-  
+<style>
+.talks-section {
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.talks-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 26px;
+  color: #2b2b2b;
+}
+
+.talks-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.talk-card {
+  position: relative;
+  overflow: hidden;
+  padding: 24px 26px 24px 76px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #ffffff 0%, #f7fbff 100%);
+  border: 1px solid rgba(0, 53, 107, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 53, 107, 0.08);
+  transition: all 0.34s ease;
+  animation: talkFadeIn 0.7s ease both;
+}
+
+.talk-card::before {
+  content: "🎤";
+  position: absolute;
+  left: 24px;
+  top: 26px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #eaf3ff;
+  box-shadow: 0 0 0 5px rgba(0, 53, 107, 0.08);
+}
+
+.talk-card::after {
+  content: "";
+  position: absolute;
+  top: -90px;
+  right: -90px;
+  width: 210px;
+  height: 210px;
+  background: radial-gradient(circle, rgba(0, 53, 107, 0.20), transparent 68%);
+  opacity: 0;
+  transition: all 0.38s ease;
+}
+
+.talk-card:hover {
+  transform: translateY(-7px) translateX(5px);
+  box-shadow: 0 18px 38px rgba(0, 53, 107, 0.18);
+  border-color: rgba(0, 53, 107, 0.35);
+}
+
+.talk-card:hover::after {
+  opacity: 1;
+  transform: scale(1.25);
+}
+
+.talk-content {
+  position: relative;
+  z-index: 1;
+}
+
+.talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 13px;
+}
+
+.talk-year {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 850;
+  color: #ffffff;
+  background: #00356b;
+  border-radius: 999px;
+}
+
+.talk-venue {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 750;
+  color: #00356b;
+  background: #eaf3ff;
+  border: 1px solid #c8ddff;
+  border-radius: 999px;
+}
+
+.talk-location {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 750;
+  color: #5b2b82;
+  background: #f3eaff;
+  border: 1px solid #dcc6ff;
+  border-radius: 999px;
+}
+
+.talk-paper-title {
+  font-size: 18px;
+  font-weight: 850;
+  line-height: 1.42;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+}
+
+.talk-authors {
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: #4a4a4a;
+}
+
+.talk-authors strong {
+  color: #00356b;
+  font-weight: 900;
+}
+
+.talk-card.featured {
+  background: linear-gradient(135deg, #ffffff 0%, #eef6ff 100%);
+  border-color: rgba(0, 53, 107, 0.26);
+}
+
+.talk-card.featured .talk-paper-title {
+  background: linear-gradient(90deg, #00356b, #1f6feb, #7b2cbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.talk-card:nth-child(1) {
+  animation-delay: 0.06s;
+}
+
+.talk-card:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.talk-card:nth-child(3) {
+  animation-delay: 0.26s;
+}
+
+@keyframes talkFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .talk-card {
+    padding: 22px 18px 22px 62px;
+  }
+
+  .talk-card::before {
+    left: 18px;
+    top: 24px;
+  }
+
+  .talk-paper-title {
+    font-size: 16.5px;
+  }
+
+  .talk-authors {
+    font-size: 14.8px;
+  }
+}
+</style>
+
+<div class="talks-section">
+
+  <h1 class="talks-title">Talks🗣️</h1>
+
+  <div class="talks-list">
+
+    <div class="talk-card featured">
+      <div class="talk-content">
+        <div class="talk-meta">
+          <span class="talk-year">2026</span>
+          <span class="talk-venue">DDW</span>
+          <span class="talk-location">Chicago</span>
+        </div>
+
+        <div class="talk-paper-title">
+          Lrig3 Represses Spasmolytic Polypeptide-Expressing Metaplasia Formation in Chief Cells by Inhibiting EGFR Signaling
+        </div>
+
+        <div class="talk-authors">
+          <strong>Jiali Zhang</strong>, Matthew E. Bechard, Robert J. Coffey, Won Jae Huh
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-card">
+      <div class="talk-content">
+        <div class="talk-meta">
+          <span class="talk-year">2025</span>
+          <span class="talk-venue">5th Annual Yale Postgraduate Symposium</span>
+        </div>
+
+        <div class="talk-paper-title">
+          Lrig3 Represses Gastric Tumorigenesis by Inhibiting EGFR Signaling
+        </div>
+
+        <div class="talk-authors">
+          <strong>Zhang, J.</strong>, W. J. Huh
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-card">
+      <div class="talk-content">
+        <div class="talk-meta">
+          <span class="talk-year">2023</span>
+          <span class="talk-venue">The 22nd Academic Symposium of Animal Anatomy, Histology & Embryology</span>
+        </div>
+
+        <div class="talk-paper-title">
+          Therapeutic Effect of Peony Seed Oil’s Major Component α-Linolenic Acid on HepG2 Cell Models of Lipid Accumulation
+        </div>
+
+        <div class="talk-authors">
+          <strong>Zhang, J.</strong>, Z. Wang, C. Li, and Y. Dong
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>  
 <span class='anchor' id='awards-honors'></span>
 # Awards & Honors🏆
 <style>
