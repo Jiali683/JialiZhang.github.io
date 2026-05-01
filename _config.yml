@@ -23,7 +23,7 @@ repository               : "jiali683/JialiZhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "myprofile.HEIC"
+  avatar           : "myprofile.jpg"
   name             : "Jiali Zhang"
   pronouns         : "They/them"  
   bio              : "Postgraduate Associate, Department of Pathology "
