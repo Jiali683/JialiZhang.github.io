@@ -37,17 +37,213 @@ redirect_from:
       
 <span class='anchor' id='-news'></span>
 # News🔥
-- *2026.02*: &nbsp;Our work has been accepted by DDW, 2026🎉.
-- *2025.11*: &nbsp;Our work has been accepted by The Journal of Pathology🎉.
-- *2025.08*: &nbsp;Our work has been presented at 5th Annual Yale
-Postgraduate Symposium, 2025🎉.
-- *2024.10*: &nbsp;Joined Dr.Huh's lab at Yale School of Medicine as a postgraduate researcher.
-- *2024.06*: &nbsp;Graduated from China Agricultural University as a merit student.
-- *2023.10*: &nbsp;Our work has been accepted by The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine🎉.
-- *2023.08*: &nbsp;Our work has been accepted by BMC Cell Communication and Signaling🎉.
-- *2021.09*: &nbsp;Starting my Master at China Agricultural University.
-- *2020.05*: &nbsp;Participated in the China Agricultural University Summer Camp and was granted exemption-based admission to the master’s program..
-- *2017.09*: &nbsp;Starting my Bachelor at Jilin Agricultural University.
+<style>
+.news-section {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.news-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #2b2b2b;
+}
+
+.news-timeline {
+  position: relative;
+  margin-left: 10px;
+  padding-left: 28px;
+  border-left: 3px solid #d8e6ff;
+}
+
+.news-item {
+  position: relative;
+  margin-bottom: 18px;
+  padding: 16px 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: all 0.28s ease;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.news-item:hover {
+  transform: translateX(8px);
+  box-shadow: 0 8px 24px rgba(0, 80, 180, 0.16);
+  background: linear-gradient(135deg, #ffffff 0%, #f5f9ff 100%);
+}
+
+.news-item::before {
+  content: "";
+  position: absolute;
+  left: -39px;
+  top: 22px;
+  width: 15px;
+  height: 15px;
+  background: #1f6feb;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #d8e6ff;
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 90px;
+  font-weight: 700;
+  color: #1f6feb;
+  margin-right: 8px;
+}
+
+.news-text {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.news-highlight {
+  font-weight: 700;
+  color: #111;
+}
+
+.news-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #ff8a00;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+.news-item:nth-child(1) { animation-delay: 0.05s; }
+.news-item:nth-child(2) { animation-delay: 0.10s; }
+.news-item:nth-child(3) { animation-delay: 0.15s; }
+.news-item:nth-child(4) { animation-delay: 0.20s; }
+.news-item:nth-child(5) { animation-delay: 0.25s; }
+.news-item:nth-child(6) { animation-delay: 0.30s; }
+.news-item:nth-child(7) { animation-delay: 0.35s; }
+.news-item:nth-child(8) { animation-delay: 0.40s; }
+.news-item:nth-child(9) { animation-delay: 0.45s; }
+.news-item:nth-child(10) { animation-delay: 0.50s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-timeline {
+    padding-left: 22px;
+  }
+
+  .news-item {
+    padding: 14px 16px;
+  }
+
+  .news-date {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .news-item::before {
+    left: -33px;
+  }
+}
+</style>
+
+<div class="news-section">
+
+  <h1 class="news-title">News🔥</h1>
+
+  <div class="news-timeline">
+
+    <div class="news-item">
+      <span class="news-date">2026.02</span>
+      <span class="news-text">
+        Our work has been accepted by <span class="news-highlight">DDW, 2026</span> 🎉
+        <span class="news-badge">Accepted</span>
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2025.11</span>
+      <span class="news-text">
+        Our work has been accepted by <span class="news-highlight">The Journal of Pathology</span> 🎉
+        <span class="news-badge">Accepted</span>
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2025.08</span>
+      <span class="news-text">
+        Our work was presented at the <span class="news-highlight">5th Annual Yale Postgraduate Symposium, 2025</span> 🎉
+        <span class="news-badge">Presentation</span>
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2024.10</span>
+      <span class="news-text">
+        Joined <span class="news-highlight">Dr. Huh's lab at Yale School of Medicine</span> as a postgraduate researcher.
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2024.06</span>
+      <span class="news-text">
+        Graduated from <span class="news-highlight">China Agricultural University</span> as a merit student.
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2023.10</span>
+      <span class="news-text">
+        Our work has been accepted by <span class="news-highlight">The 22nd Academic Symposium of the Animal Anatomy and Histology & Embryology Branch of the Chinese Association of Animal Science and Veterinary Medicine</span> 🎉
+        <span class="news-badge">Accepted</span>
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2023.08</span>
+      <span class="news-text">
+        Our work has been accepted by <span class="news-highlight">BMC Cell Communication and Signaling</span> 🎉
+        <span class="news-badge">Accepted</span>
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2021.09</span>
+      <span class="news-text">
+        Started my Master's program at <span class="news-highlight">China Agricultural University</span>.
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2020.05</span>
+      <span class="news-text">
+        Participated in the <span class="news-highlight">China Agricultural University Summer Camp</span> and was granted exemption-based admission to the master's program.
+      </span>
+    </div>
+
+    <div class="news-item">
+      <span class="news-date">2017.09</span>
+      <span class="news-text">
+        Started my Bachelor's program at <span class="news-highlight">Jilin Agricultural University</span>.
+      </span>
+    </div>
+
+  </div>
+
+</div>
 
 <span class='anchor' id='educations-training'></span>
 # Educations & Training📚
