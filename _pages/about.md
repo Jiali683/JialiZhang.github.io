@@ -246,178 +246,203 @@ redirect_from:
 <span class='anchor' id='educations-training'></span>
 # Educations & Training📚
 <style>
-.education-section {
+.edu-glass-section {
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
-.education-title {
+.edu-glass-title {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 28px;
   color: #2b2b2b;
 }
 
-.education-timeline {
+.edu-glass-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.edu-glass-card {
   position: relative;
-  padding-left: 32px;
-  border-left: 3px solid #d7e7ff;
+  overflow: hidden;
+  min-height: 230px;
+  padding: 24px 22px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(0, 53, 107, 0.14);
+  box-shadow: 0 10px 28px rgba(0, 53, 107, 0.10);
+  transition: all 0.35s ease;
+  animation: eduPopIn 0.7s ease both;
 }
 
-.education-card {
-  position: relative;
-  margin-bottom: 24px;
-  padding: 20px 24px;
-  background: linear-gradient(135deg, #ffffff 0%, #f7fbff 100%);
-  border-radius: 18px;
-  box-shadow: 0 6px 18px rgba(0, 53, 107, 0.08);
-  transition: all 0.3s ease;
-  animation: eduFadeUp 0.65s ease both;
-}
-
-.education-card:hover {
-  transform: translateY(-6px) translateX(6px);
-  box-shadow: 0 14px 30px rgba(0, 53, 107, 0.18);
-}
-
-.education-card::before {
+.edu-glass-card::before {
   content: "";
   position: absolute;
-  left: -42px;
-  top: 28px;
-  width: 16px;
-  height: 16px;
-  background: #00356b;
-  border-radius: 50%;
-  border: 4px solid #ffffff;
-  box-shadow: 0 0 0 5px #d7e7ff;
+  top: -80px;
+  right: -80px;
+  width: 170px;
+  height: 170px;
+  background: radial-gradient(circle, rgba(0, 53, 107, 0.20), transparent 65%);
+  transition: all 0.35s ease;
 }
 
-.education-date {
+.edu-glass-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 22px;
+  padding: 1.5px;
+  background: linear-gradient(135deg, rgba(0, 53, 107, 0.55), rgba(31, 111, 235, 0.15), rgba(111, 66, 193, 0.35));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.edu-glass-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0, 53, 107, 0.20);
+}
+
+.edu-glass-card:hover::before {
+  transform: scale(1.35);
+  opacity: 0.9;
+}
+
+.edu-glass-card:hover::after {
+  opacity: 1;
+}
+
+.edu-glass-icon {
+  position: relative;
+  z-index: 1;
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+.edu-glass-date {
+  position: relative;
+  z-index: 1;
   display: inline-block;
-  margin-bottom: 8px;
-  padding: 4px 12px;
-  font-size: 14px;
-  font-weight: 700;
+  margin-bottom: 16px;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #00356b;
+  background: #eaf3ff;
+  border-radius: 999px;
+}
+
+.edu-glass-degree {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 800;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.edu-glass-school {
+  position: relative;
+  z-index: 1;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.edu-glass-highlight {
+  font-weight: 900;
+  background: linear-gradient(90deg, #00356b, #1f6feb, #7b2cbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.edu-glass-status {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 14px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 800;
   color: #ffffff;
   background: #00356b;
   border-radius: 999px;
 }
 
-.education-role {
-  font-size: 19px;
-  font-weight: 700;
-  color: #1f1f1f;
-  margin-bottom: 6px;
-}
-
-.education-school {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444;
-}
-
-.education-highlight {
-  font-weight: 800;
-  background: linear-gradient(90deg, #00356b, #1f6feb, #6f42c1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.education-tag {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 3px 9px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #00356b;
-  background: #eaf3ff;
-  border: 1px solid #c8ddff;
-  border-radius: 999px;
-}
-
-.education-card:nth-child(1) {
+.edu-glass-card:nth-child(1) {
   animation-delay: 0.05s;
 }
 
-.education-card:nth-child(2) {
+.edu-glass-card:nth-child(2) {
   animation-delay: 0.15s;
 }
 
-.education-card:nth-child(3) {
+.edu-glass-card:nth-child(3) {
   animation-delay: 0.25s;
 }
 
-@keyframes eduFadeUp {
+@keyframes eduPopIn {
   from {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(18px) scale(0.96);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
-@media screen and (max-width: 768px) {
-  .education-timeline {
-    padding-left: 24px;
+@media screen and (max-width: 900px) {
+  .edu-glass-grid {
+    grid-template-columns: 1fr;
   }
 
-  .education-card {
-    padding: 18px 18px;
-  }
-
-  .education-card::before {
-    left: -34px;
-  }
-
-  .education-role {
-    font-size: 17px;
-  }
-
-  .education-school {
-    font-size: 15px;
-  }
-
-  .education-tag {
-    margin-left: 0;
-    margin-top: 6px;
+  .edu-glass-card {
+    min-height: auto;
   }
 }
 </style>
 
-<div class="education-section">
+<div class="edu-glass-section">
 
-  <h1 class="education-title">Educations & Training📚</h1>
+  <div class="edu-glass-grid">
 
-  <div class="education-timeline">
-
-    <div class="education-card">
-      <div class="education-date">2024.10 - Present</div>
-      <div class="education-role">Postgraduate Researcher</div>
-      <div class="education-school">
-        School of Medicine, Yale University
-        <span class="education-tag">Current</span>
+    <div class="edu-glass-card">
+      <div class="edu-glass-icon">🔬</div>
+      <div class="edu-glass-date">2024.10 - Present</div>
+      <div class="edu-glass-degree">Postgraduate Researcher</div>
+      <div class="edu-glass-school">
+        Yale School of Medicine<br>
+        Yale University
       </div>
+      <div class="edu-glass-status">Current</div>
     </div>
 
-    <div class="education-card">
-      <div class="education-date">2021.09 - 2024.06</div>
-      <div class="education-role">Master of Science</div>
-      <div class="education-school">
-        College of Veterinary Medicine,
-        <span class="education-highlight">with Distinction</span>,
+    <div class="edu-glass-card">
+      <div class="edu-glass-icon">🎓</div>
+      <div class="edu-glass-date">2021.09 - 2024.06</div>
+      <div class="edu-glass-degree">Master of Science</div>
+      <div class="edu-glass-school">
+        College of Veterinary Medicine<br>
+        <span class="edu-glass-highlight">with Distinction</span><br>
         China Agricultural University
       </div>
     </div>
 
-    <div class="education-card">
-      <div class="education-date">2017.09 - 2021.06</div>
-      <div class="education-role">Bachelor of Science</div>
-      <div class="education-school">
-        College of Veterinary Medicine,
-        <span class="education-highlight">with Distinction</span>,
+    <div class="edu-glass-card">
+      <div class="edu-glass-icon">📘</div>
+      <div class="edu-glass-date">2017.09 - 2021.06</div>
+      <div class="edu-glass-degree">Bachelor of Science</div>
+      <div class="edu-glass-school">
+        College of Veterinary Medicine<br>
+        <span class="edu-glass-highlight">with Distinction</span><br>
         Jilin Agricultural University
       </div>
     </div>
