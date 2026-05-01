@@ -165,7 +165,7 @@ Postgraduate Symposium, 2025🎉.
 
 <div class="publications-section">
 
-  <h1 class="publications-title">📝 Publications</h1>
+  # <h1 class="publications-title">📝 Publications</h1>
 
   <!-- Publication 1 -->
   <div class="publication-item">
