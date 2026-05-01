@@ -626,19 +626,223 @@ redirect_from:
   
 <span class='anchor' id='awards-honors'></span>
 # Awards & Honors🏆
-- *2024*: &nbsp;Beijing Outstanding Graduates.
-- *2024*: &nbsp;Outstanding Graduate of the University.
-- *2024 & 2021*: &nbsp;Second-class Academic Scholarship.
-- *2023*: &nbsp;National Scholarship.
-- *2023*: &nbsp;Xiong Dashi Dean’s Scholarship.
-- *2023*: &nbsp;First-class Academic Scholarship.
-- *2021*: &nbsp;Second-Class major Scholarship.
-- *2020 & 2018*: &nbsp;Jilin Province Scholarship.
-- *2020 & 2019 & 2018 & 2017*: &nbsp;First-class Major Scholarship.
-- *2019*: &nbsp;Excellence Award at the 6th Shengtai’er Cup Veterinary Medicine Professional Skills Competition.
-- *2018*: &nbsp;DNB Encouragement Scholarship.
-- *2018*: &nbsp;College Merit Student.
-- *2018*: &nbsp;University Model Student in Learning.
+<style>
+.honor-section {
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.honor-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 26px;
+  color: #2b2b2b;
+}
+
+.honor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.honor-card {
+  position: relative;
+  overflow: hidden;
+  padding: 18px 20px 18px 22px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ffffff 0%, #fffaf0 100%);
+  border: 1px solid rgba(205, 155, 35, 0.22);
+  box-shadow: 0 8px 22px rgba(80, 60, 10, 0.08);
+  transition: all 0.32s ease;
+  animation: honorFadeUp 0.65s ease both;
+}
+
+.honor-card::before {
+  content: "";
+  position: absolute;
+  top: -55px;
+  right: -55px;
+  width: 130px;
+  height: 130px;
+  background: radial-gradient(circle, rgba(255, 199, 44, 0.32), transparent 68%);
+  transition: all 0.35s ease;
+}
+
+.honor-card::after {
+  content: "✦";
+  position: absolute;
+  right: 18px;
+  bottom: 12px;
+  font-size: 28px;
+  color: rgba(205, 155, 35, 0.20);
+  transition: all 0.35s ease;
+}
+
+.honor-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 16px 34px rgba(180, 125, 20, 0.20);
+  border-color: rgba(205, 155, 35, 0.55);
+}
+
+.honor-card:hover::before {
+  transform: scale(1.35);
+  opacity: 1;
+}
+
+.honor-card:hover::after {
+  transform: rotate(18deg) scale(1.15);
+  color: rgba(205, 155, 35, 0.42);
+}
+
+.honor-year {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 11px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #7a4b00;
+  background: linear-gradient(135deg, #fff1b8, #ffd76a);
+  border-radius: 999px;
+  box-shadow: 0 3px 8px rgba(205, 155, 35, 0.22);
+}
+
+.honor-name {
+  position: relative;
+  z-index: 1;
+  font-size: 16.5px;
+  font-weight: 700;
+  line-height: 1.48;
+  color: #333;
+}
+
+.honor-name strong {
+  color: #111;
+}
+
+.honor-card.featured {
+  background: linear-gradient(135deg, #fffdf5 0%, #fff3c4 100%);
+  border-color: rgba(205, 155, 35, 0.45);
+}
+
+.honor-card.featured .honor-year {
+  color: #ffffff;
+  background: linear-gradient(135deg, #b8860b, #f0b429);
+}
+
+.honor-card:nth-child(1) { animation-delay: 0.04s; }
+.honor-card:nth-child(2) { animation-delay: 0.08s; }
+.honor-card:nth-child(3) { animation-delay: 0.12s; }
+.honor-card:nth-child(4) { animation-delay: 0.16s; }
+.honor-card:nth-child(5) { animation-delay: 0.20s; }
+.honor-card:nth-child(6) { animation-delay: 0.24s; }
+.honor-card:nth-child(7) { animation-delay: 0.28s; }
+.honor-card:nth-child(8) { animation-delay: 0.32s; }
+.honor-card:nth-child(9) { animation-delay: 0.36s; }
+.honor-card:nth-child(10) { animation-delay: 0.40s; }
+.honor-card:nth-child(11) { animation-delay: 0.44s; }
+.honor-card:nth-child(12) { animation-delay: 0.48s; }
+.honor-card:nth-child(13) { animation-delay: 0.52s; }
+
+@keyframes honorFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .honor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .honor-card {
+    padding: 17px 18px;
+  }
+
+  .honor-name {
+    font-size: 15.5px;
+  }
+}
+</style>
+
+<div class="honor-section">
+
+  <div class="honor-grid">
+
+    <div class="honor-card featured">
+      <div class="honor-year">2024</div>
+      <div class="honor-name"><strong>Beijing Outstanding Graduates</strong></div>
+    </div>
+
+    <div class="honor-card featured">
+      <div class="honor-year">2024</div>
+      <div class="honor-name"><strong>Outstanding Graduate of the University</strong></div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2024 & 2021</div>
+      <div class="honor-name">Second-class Academic Scholarship</div>
+    </div>
+
+    <div class="honor-card featured">
+      <div class="honor-year">2023</div>
+      <div class="honor-name"><strong>National Scholarship</strong></div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2023</div>
+      <div class="honor-name">Xiong Dashi Dean’s Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2023</div>
+      <div class="honor-name">First-class Academic Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2021</div>
+      <div class="honor-name">Second-class Major Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2020 & 2018</div>
+      <div class="honor-name">Jilin Province Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2020 & 2019 & 2018 & 2017</div>
+      <div class="honor-name">First-class Major Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2019</div>
+      <div class="honor-name">Excellence Award at the 6th Shengtai’er Cup Veterinary Medicine Professional Skills Competition</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2018</div>
+      <div class="honor-name">DNB Encouragement Scholarship</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2018</div>
+      <div class="honor-name">College Merit Student</div>
+    </div>
+
+    <div class="honor-card">
+      <div class="honor-year">2018</div>
+      <div class="honor-name">University Model Student in Learning</div>
+    </div>
+
+  </div>
+
+</div>
   
 <span class='anchor' id='-internships'></span>
 # Internships💼
