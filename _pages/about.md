@@ -309,7 +309,7 @@ redirect_from:
     </p>
 
     <div class="research-tags">
-      <span class="research-tag">Gastrointestinal Diseases</span>
+      <span class="research-tag">Digestive Diseases</span>
       <span class="research-tag">Therapeutic Strategies</span>
       <span class="research-tag">Stem Cell Therapy</span>
       <span class="research-tag">Drug Delivery Systems</span>
