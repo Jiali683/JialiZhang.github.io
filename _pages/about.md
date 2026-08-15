@@ -305,8 +305,7 @@ redirect_from:
     </p>
 
     <p class="about-text">
-      My research interests include the mechanisms underlying gastrointestinal diseases and their therapeutic strategies,
-      stem cell therapy, drug delivery system development, and organoids.
+     My research interests lie at the intersection of mechanistic and translational research in digestive diseases, particularly gastrointestinal and liver disorders. I am especially interested in developing innovative therapeutic strategies involving stem cell–based therapies, drug delivery systems, and organoid models.
     </p>
 
     <div class="research-tags">
